@@ -1,0 +1,138 @@
+table{
+	width:100%;
+	border-collapse:colapse;
+	box-shadow:5px 5px 5px #ddd;
+}
+tr:nth-child(even){
+	background:#ddd;
+}
+ td,th{
+ 	pading:3%;
+ }
+ .skillDiv{
+ 	width:100;
+ 	border-left: 3px solid #0E4DBA;
+ 	padding: 1%;
+ 	margin: 1%;
+ }
+ span{
+ 	background: #0E4DBA;
+ 	color:#fff;
+ 	border:1px slod #082D6E:
+ 	box-shadow:3px 3px 3px #ddd;
+ 	margin:1%;
+ 	padding: 1%;
+ 	border-radius: 5px; 
+ }
+.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	background:pink;
+	width:30%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+.child2{
+	width:70%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+.profile{
+	width:200px;
+	height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+h2{
+	text-align:center;
+	color:#ad4f3b;
+	word-wrap: break-word;
+}
+hr{
+
+}
+a{
+	text-decoration:none;
+	font-size:20px;
+	word-wrap: break-word;
+}
+p{
+	font-size:20px;
+}
+/*Small screens*/
+@media only screen and (min-width:320px) and (max-width: 480px){
+	.parent{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.child1{
+	width:100%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+.child2{
+	background:blue;
+	width:100%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+body{
+	background-color: yellow;
+}
+}
+/*Medium screens*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+	.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	width:40%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+.child2{ 
+	width:60%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+}
+/*Large screens*/ 
+@media only screen and (min-width:769px) and (max-width: 1024px){
+	.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	background-color:pink;
+	width:50%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+.child2{
+
+	background:white;
+	width:50%;
+	border:1px solid #000;
+	padding:1%;
+	margin:1%;
+}
+body{
+	background-color:yellow;
+}
+}
+

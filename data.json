@@ -1,0 +1,51 @@
+{
+	" basics":{
+		"name":"brahmaleela",
+		"role":"student",
+		"mobile":"7675082616",
+		"email":"brahmaleela369@gmail.com"
+	},
+	"career":{
+		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+	},
+	"education":[
+		{
+			"degree":"B-Tech(computer science &technology)",
+			"institute":"Vignan's Nirula",
+			"data":["2016-2020","82%"]
+		},
+		{
+			"degree":" intermediate(m.p.c)",
+			"institute":"Sri prthibha j.c",
+			"data":["2014-2016","95%"]
+		},
+		{
+			"degree":"S.S.C",
+			"institute":"Z.p.highschool",
+			"data":["2013-2014","82%"]
+		}
+	],
+	"skills":[
+		{ 
+			"title":"programming languages",
+			"content":["python","c","java","R","c++"]
+
+	},
+	{ 
+			"title":"data base",
+			"content":["sql","mysql","oracle"]
+
+	},	
+	{ 
+			"title":"web technologies",
+			"content":["html","javascript","css"]
+
+	},
+	{ 
+			"title":"operating system",
+			"content":["windows","unix","linux"]
+
+	}	
+]
+}
+
